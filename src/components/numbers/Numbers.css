@@ -1,0 +1,41 @@
+.tileBorder {
+  border: solid 2px black;
+  border-radius: 2px;
+}
+
+.numberTile {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  margin: auto;
+  line-height: 50px;
+  text-align: center;
+}
+
+.disabledTile {
+  background-color: #999999;
+}
+
+.number {
+  margin: 20px;
+}
+
+.numbersRow, .targetRow {
+  margin-top: 25px;
+}
+
+.calculatorText {
+  background: #ffffff;
+  margin: 25px;
+  padding: 15px;
+  width: 100%;
+  min-height: 20px;
+}
+
+.calculatorOperation.MuiGrid-item {
+  margin-top: 15px;
+}
+
+.errorMessage {
+  color: #bb0000;
+}
