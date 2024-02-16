@@ -148,11 +148,11 @@ export default class NumbersGame extends Component {
     this.setState({
       mode: 'solution',
       solution: null,
-    }, () => setImmediate(() =>
+    }, () =>
       this.setState((state) => ({
         solution: solver(state.nums, state.target),
-      })),
-    ));
+      }))
+    );
   }
 
   render() {
